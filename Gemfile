@@ -38,3 +38,5 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'actionpack-page_caching'
+gem 'rails-observers', git: 'https://github.com/rails/rails-observers.git'

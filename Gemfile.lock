@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/rails/rails-observers.git
+  revision: 47323d668cf5dea9e0b0bb9ea780d112400e3a5b
+  specs:
+    rails-observers (0.1.2)
+      activemodel (~> 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -10,6 +17,8 @@ GEM
       activesupport (= 4.1.4)
       rack (~> 1.5.2)
       rack-test (~> 0.6.2)
+    actionpack-page_caching (1.0.2)
+      actionpack (>= 4.0.0, < 5)
     actionview (4.1.4)
       activesupport (= 4.1.4)
       builder (~> 3.1)
@@ -113,10 +122,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionpack-page_caching
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.1.4)
+  rails-observers!
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spring
